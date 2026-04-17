@@ -57,6 +57,9 @@ input, select, textarea {
   gap: 20px;
 }
 
+h3 {
+  color: #3d3d3d;
+}
 
 .negativa, .positiva {
   padding: 15px;
