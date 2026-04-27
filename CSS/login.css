@@ -1,1 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+  display: flex;
+}
+
+
+.sidebar {
+  width: 220px;
+  background: #1e3a5f;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.menu-item {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-box {
+  background: rgb(229, 231, 243);
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 6px;
+  margin: 8px 0 15px;
+  border-radius: 8px;
+  border: 1px solid #004fcf;
+  margin-top: 25px;
+}
+
+
+.tipo {
+  display: flex;
+  gap: 20px;
+}
+
+h3 {
+  color: #3d3d3d;
+}
+
+.negativa, .positiva {
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+.negativa {
+  background: #ca0000;
+  color: white;
+}
+
+.positiva {
+  background: #A8E6A3;
+}
+
+.ativo {
+  opacity: 1;
+  border: 3px solid rgba(39, 0, 0, 0.13);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  flex: 1;
+  margin-top: 20px;
+}
+
+.salvar {
+  background: #5C6F7B;
+  color: white;
+}
+
+.limpar {
+  background: #ccc;
+}
 
