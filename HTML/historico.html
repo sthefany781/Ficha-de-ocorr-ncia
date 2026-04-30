@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Registro de Ocorrências</title>
-    <link rel="stylesheet" href="../CSS/ocorrencias.css">
-</head>
-
+</style>
 <body>
 
     <div class="sidebar">
         <h2>Escola</h2>
-        <!DOCTYPE html>
-        <html lang="pt-br">
-
-        <head>
-            <meta charset="UTF-8">
-            <title>Registro de Ocorrências</title>
-            <link rel="stylesheet" href="../CSS/stylenegativo.css">
-        </head>
-
-        <body>
-
-            <nav class="menu">
-                <ul>
-                    <li><a href="ocorrências.html">Histórico</a></li>
-
-                </ul>
-            </nav>
-
+        <div class="menu-item">Inicio</div>
+        <div class="menu-item">Ocorrências</div>
+        <div class="menu-item">Relatórios</div>
     </div>
 
     <div class="main">
-
-        <div class="header">
-            Histórico
+        <div class="header-container">
+            <h1 class="header-title">Histórico de Ocorrências</h1>
         </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Título</th>
+                        <th>Tipo</th>
+                        <th>Colaborador</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12/10/2023</td>
+                        <td>Atraso injustificado</td>
+                        <td><span class="badge badge-negativa">Negativa</span></td>
+                        <td>João Silva</td>
+                        <td>oi</td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2023</td>
+                        <td>Meta batida antecipada</td>
+                        <td><span class="badge badge-positiva">Positiva</span></td>
+                        <td>Maria Souza</td>
+                        <td>oi</td>
+                    </tr>
+                    <tr>
+                        <td>08/10/2023</td>
+                        <td>Excelente atendimento</td>
+                        <td><span class="badge badge-positiva">Positiva</span></td>
+                        <td>Pedro Santos</td>
+                        <td>oi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
