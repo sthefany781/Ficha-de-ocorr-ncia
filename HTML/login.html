@@ -9,24 +9,24 @@
 </head>
 
 <body>
-    <div class="login-page">
-        <div class="form">
-            <form class="register-form">
-                <input type="password" placeholder="password" />
-                <input type="text" placeholder="email address" />
-                <button type="submit">create</button>
-                <p class="message">Already registered? <a href="#">Sign In</a></p>
-            </form>
 
-            <form class="login-form">
-                <h2>LOGIN</h2>
-                <input type="text" placeholder="EMAIL" />
-                <input type="password" placeholder="SENHA" />
-                <a href="começo.html">
-                    <a href="ocorrencias.html" class="btn"> LOGIN</a>
-                </a>
-                <h3 class="message">esqueceu a senha?</h3>
+    <div class="login-card">
+        <h2>Login</h2>
+        <form>
+            <div class="input-group">
+                <label>E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="input-group">
+                <label>Senha</label>
+                <input type="password" placeholder="Digite sua senha" required>
+            </div>
+            <button type="button" class="btn" onclick="window.location.href='ocorrencias.html'">ENTRAR</button>
+        </form>
+        <div class="options">
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+    </div>
 
 </body>
-
 </html>
